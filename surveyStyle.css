@@ -1,16 +1,64 @@
+body {
+  background-color: #1b1b32;
+  color: #ffffff;
+}
+
+form {
+  margin: auto;
+  width: 80vh;
+  min-width: 300px;
+  max-width: 500px;
+}
+
 h1, p {
   text-align: center;
 }
 
+fieldset {
+  border: none;
+  border-bottom: grey double 2px;
+  margin: 10px 0 0 0;
+  padding-bottom: 20px;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
 label {
   display: block;
+  width: 100%;
   margin: 0.5rem 0;
 }
 
-input, select {
-  width: 100%;
+input, select, input[type="checkbox"] {
+  display: block;
+  width: 50%;
+  height: 20px;
+  background-color: azure;
+  border-color: #1b1b32;
+  margin: 7px 7px 7px 0;
 }
 
 input[type="radio"], input[type="checkbox"] {
   width: unset;
+  display: unset;
+  vertical-align: top;
+  margin: 0 8px 0 0;
+}
+
+input[type="submit"] {
+  width: 30%;
+  height: 30px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: black;
+  border-color: azure;
+  color: azure;
+}
+
+textarea {
+  display: block;
+  width: 60%;
+  height: 80px;
 }
