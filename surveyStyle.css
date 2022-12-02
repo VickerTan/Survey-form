@@ -65,6 +65,6 @@ textarea {
 
 a {
   float: right;
-  color: white;
-  padding: 15px;
+  color: grey;
+  margin: -15px 0;
 }
