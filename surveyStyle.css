@@ -62,3 +62,9 @@ textarea {
   width: 60%;
   height: 80px;
 }
+
+a {
+  float: right;
+  color: white;
+  padding: 15px;
+}
